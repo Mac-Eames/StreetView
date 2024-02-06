@@ -11,8 +11,8 @@ class Settings:
     PROJECT_NAME: str = "Google Street View App"
     PROJEVT_VERSION: str = "1.0.0"
 
-    POSTGRES_USER: str = os.getenv('postgres')
-    POSTGRES_PASSWORD = os.getenv("@Habeeb123")
+    POSTGRES_USER: str = os.getenv('')
+    POSTGRES_PASSWORD = os.getenv("")
     POSTGRES_SERVER: str = os.getenv("POSTGRES_SERVER", 'localhost')
     POSTGRES_PORT: str = os.getenv("POSTGRES_PORT", 5432)
     POSTGRES_DB: str = os.getenv("POSTGRES_DB", "Google streetview")
